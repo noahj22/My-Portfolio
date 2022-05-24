@@ -11,7 +11,7 @@
     --second-bg-color: #191919;
     --text-color: #fff;
     --second-color: #c6c9d8bf;
-    --main-color: #f9004d;
+    --main-color: #00dcf9;
     --big-font: 5.3rem;
     --h2-font: 4.2rem;
     --p-font: 1.1rem;
@@ -34,7 +34,7 @@ header{
     transition-duration: .3s;
 }
 .logo{
-    color: var(--text-color);
+    color: var(--main-color);
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -94,7 +94,6 @@ section{
 .home{
     height: 100vh;
     width: 100%;
-    background: url(./);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -110,11 +109,12 @@ span{
     color: var(--main-color);
 }
 .home-text h3{
+    color: #e01212;
     font-size: 25px;
     margin-bottom: 55px;
 }
 .home-text h4{
-    color: #585c63;
+    color: #e01212;
     font-size: 20px;
     letter-spacing: 2px;
 }
@@ -169,6 +169,7 @@ header.sticky{
     border-radius: 10px;
 }
 .about-text h2{
+    color: var(--main-color);
    font-size: var(--h2-font);
    margin-bottom: 20px; 
 }
@@ -216,7 +217,7 @@ header.sticky{
    line-height: 28px;
    font-size: var(--p-font); 
 }
-.servie-content{
+.service-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, auto));
     grid-gap: 2rem;
